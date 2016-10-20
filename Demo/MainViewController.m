@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"初始化项目");
+    NSLog(@"刚刚使用的是Xcode自带的版本管理工具,现在使用Sourcetree.");
 }
 
 - (void)didReceiveMemoryWarning {
