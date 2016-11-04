@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MainViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)nextPage:(UIButton *)sender {
+    MainViewController *main = [[MainViewController alloc]initWithFrame:self.view.bounds];
+    [self.navigationController pushViewController:main animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
