@@ -45,7 +45,7 @@
     btn.frame = CGRectMake(100, 100, 300, 100);
     btn.backgroundColor = [UIColor whiteColor];
     btn.titleLabel.text = @"我是警察啊~!\n谁知道?";
-    btn.titleLabel.textAlignment = NSTextAlignmentCenter;
+    btn.titleLabel.textAlignment = NSTextAlignmentLeft;
     btn.titleLabel.font = [UIFont systemFontOfSize:20];
     btn.titleLabel.textColor = [UIColor redColor];
     [self.view addSubview:btn];
